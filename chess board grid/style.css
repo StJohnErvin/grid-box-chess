@@ -1,0 +1,65 @@
+body{
+
+    background-image: linear-gradient(to right,  rgba(10, 126, 0, 0.342),rgba(249, 255, 191, 0.315)), url(hero.jpg);
+   
+  
+
+}
+header{
+text-align: center;
+padding: 50px;
+font-size: 50px;
+font-family: monospace;
+font-weight: 900 ;
+}
+
+
+
+.container {
+    display: grid;
+    grid-template: repeat(8,1fr) / repeat(8,1fr) ;
+margin: auto;
+height: 420px;
+width: 417px;
+border: 10px solid black;
+border-style: double;
+background-image:url(wood.jpg) ;
+justify-content: center;
+
+ 
+}
+
+
+
+.white-box{
+    height: 50px;
+    width:50px;
+    /* background-color: blanchedalmond; */
+background-image: url(white.jpg);
+background-repeat: no-repeat;
+background-size: 50px;
+
+border-radius: 5px;
+border: .5px solid black;
+font-size: 50px;
+text-align: center;
+
+
+
+
+
+}
+.black-box{
+    height: 50px;
+    width: 50px;
+        background-image: url(black.jpg);
+        background-repeat: no-repeat;
+        background-size: 50px;
+        border-radius: 5px;
+        border: .5px solid black;
+font-size: 50px;
+text-align: center;
+
+
+
+}
